@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-07-07T13:00:00Z",
+  "alerts": [
+    {
+      "id": "phish-2026-07-001",
+      "severity": "high",
+      "region": "Iraq",
+      "title": "Phishing campaign impersonating local banking SMS alerts",
+      "description": "Multiple reports of SMS messages impersonating regional banks, directing users to fake login pages that harvest banking credentials. Messages typically claim account suspension or unusual activity requiring immediate verification.",
+      "mitre_technique": "T1566.002",
+      "published_at": "2026-07-05T09:00:00Z"
+    },
+    {
+      "id": "wifi-2026-07-002",
+      "severity": "medium",
+      "region": "Middle East",
+      "title": "Rise in public WiFi Evil Twin attacks at transit hubs",
+      "description": "Security researchers observed an increase in rogue access points mimicking airport and cafe WiFi networks in major regional transit hubs, designed to intercept unencrypted traffic and credentials.",
+      "mitre_technique": "T1557.004",
+      "published_at": "2026-07-03T14:30:00Z"
+    },
+    {
+      "id": "malware-2026-06-045",
+      "severity": "critical",
+      "region": "Global",
+      "title": "Fake security app clones distributing spyware via third-party app stores",
+      "description": "Threat intelligence sources report cloned versions of popular mobile security apps being distributed through unofficial app stores, bundled with spyware capable of harvesting contacts, SMS, and location data.",
+      "mitre_technique": "T1444",
+      "published_at": "2026-06-28T11:15:00Z"
+    },
+    {
+      "id": "social-2026-06-038",
+      "severity": "low",
+      "region": "Iraq",
+      "title": "Increase in social engineering calls impersonating telecom support",
+      "description": "Reports of callers impersonating telecom customer support requesting OTP codes under the pretext of resolving account issues. Legitimate telecom providers never request OTP codes over the phone.",
+      "mitre_technique": "T1598.004",
+      "published_at": "2026-06-20T08:00:00Z"
+    }
+  ]
+}
